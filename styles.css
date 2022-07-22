@@ -32,7 +32,7 @@ img {
   width: 80%;
 }
 
-button{
+.btn {
   text-align: center;
   margin: 30px 30px 0px 30px;
   font-family: 'Lobster';
@@ -46,7 +46,7 @@ button{
   box-shadow: 0 7px #232931;
 }
 
-button:hover {
+.btn:hover {
   background-color: #9CE6CD;
 }
 
@@ -58,7 +58,7 @@ footer {
 
 }
 
-.pressed{
+.pressed {
   background-color: #9CE6CD;
   box-shadow: 0 5px #426157;
   transform: translateY(4px);
