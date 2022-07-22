@@ -32,10 +32,34 @@ img {
   width: 80%;
 }
 
+button{
+  text-align: center;
+  margin: 30px 30px 0px 30px;
+  font-family: 'Lobster';
+  padding: 10px 20px;
+  border-radius: 20%;
+  font-size: 1.5rem;
+  color: #232931;
+  background-color: #4ECCA3;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 7px #232931;
+}
+
+button:hover {
+  background-color: #9CE6CD;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+.pressed{
+  background-color: #9CE6CD;
+  box-shadow: 0 5px #426157;
+  transform: translateY(4px);
 }
